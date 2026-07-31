@@ -2,16 +2,15 @@
 margin: 0;
 padding: 0;
 color: white;
-
 }
 a:hover{
-color: rgb(0, 0, 0);
+color: rgb(4, 0, 255);
 }
-h1{
-align-items: center;
+.secao h2{
+color: blue;
 }
-h2{
-
+.cargo{
+    color: blue;
 }
 #images{
 display: flex;
@@ -21,19 +20,21 @@ flex-direction: column;
 width: 800px;
 margin: auto;
 }
+.secao{
+border-bottom: solid;
+padding: 20px;
+color: blue;
+border-width: 1px;
+}
 .cabecalho{
-border: solid;
 display: flex;
 flex-direction: column;
 align-items: center;
-border-color: blue;
-
 }
 img{
 border: solid;
 border-color: blue;
 border-radius: 100%;
-
 }
 body{ 
     background: black;
